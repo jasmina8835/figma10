@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+}
+
+.content{
+    padding: 2% 5%;
+    color: #fff;
+    background-image: url(./img/bg\ image\ 1.jpg);
+}
+
+/* ==============Start Header============== */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    gap: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .icon{
+    gap: 30px;
+    color: #FFB548;
+    font-size: 30px;
+}
+
+/* ===============Header End=============== */
+
+/* ===============Start Hero=============== */
+
+.hero{
+    text-align: center;
+    padding: 20% 20%;
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+
+}
+
+/* ===============Hero End================= */
+
+/* ===============Start Main=============== */
+
+main{
+    padding: 5%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./img/bg\ image\ 2.jpg);
+}
+
+/* ===============Main End================= */
+
+/* ===============Start Section============ */
+
+section{
+    padding: 15% 5%;
+    color: #fff;
+    object-fit: cover;
+    background-image: url(./img/Group.jpg);
+}
+
+.sec_right h3{
+    color: #FFB548;
+}
+
+/* ===============Section End============== */
+
+/* ===============Start Article============ */
+
+article{
+    padding: 5%;
+    color: #fff;
+    background-image: url(./img/Group\ 2\ \(1\).jpg);
+}
+
+/* ===============Article End============== */
+
+/* ===============Start Aside============== */
+
+aside{
+    width: 100%;
+    padding: 5%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside_left{
+    width: 50%;
+}
+
+.aside_right{
+    width: 50%;
+}
+
+.aside_right .image{
+    margin: 30px 0;
+    position: relative;
+    left: -80px;
+}
+
+/* ===============Aside End================ */
+
+/* ===============Start Footer============= */
+
+footer{
+    background-color: black;
+}
+
+/* ===============Footer End=============== */
